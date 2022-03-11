@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+
+body {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/704/302/377/digital-art-colorful-minimalism-abstract-wallpaper-preview.jpg");
+    background-repeat: none;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.colmn {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.colmn p {
+    text-align: centre;
+}
+.logo {
+    height: 100px;
+    padding: 5px;
+}
+
+.logo-col {
+    text-align: center;
+    text-justify: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.logo-row {
+    height: inherit;
+}
+
+h1 {
+    margin-left: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family:  'Fredoka', sans-serif;
+    color: rgba(51, 51, 51, 0.849);
+    font-weight: 600;
+    font-size: 150px;
+}
+
+h3 {
+    font-family: 'Fredoka', sans-serif;
+    color: black;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.edn h5 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+hr.dotted {
+    border-top: 1px dashed #bbb;
+}
+
+.skl {
+    display: flex;
+    flex-direction: row;
+}
+
+.skl img {
+    height: 20px;
+    margin-left: 10px;
+}
+
