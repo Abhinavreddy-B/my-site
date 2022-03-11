@@ -69,3 +69,26 @@ hr.dotted {
     margin-left: 10px;
 }
 
+.carousel {
+    margin: 10px;
+    margin-left: 30%;
+    margin-top: 30px;
+    padding: 10px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.carousel-inner {
+    border-radius: 10px;
+    height: 500px;
+}
+
+.carousel-inner img {
+    border-radius: 10px;
+}
+.carousel-indicators {
+    background-color: black;
+    height: 20px;
+    text-justify: centre;
+}
