@@ -6,6 +6,7 @@ body {
     background-repeat: none;
     background-size: cover;
     padding-bottom: 50px;
+    scroll-behavior: smooth;
 }
 
 .colmn {
@@ -104,6 +105,7 @@ hr.dotted {
 }
 
 .intro-anim {
+    user-select: none;
     margin-bottom: 30px;
     font-family:  "Noto Serif Display";
     color: rgb(0, 24, 0);
@@ -158,4 +160,44 @@ hr.dotted {
     transition: 0.5s;
     margin:5px;
     border-top: 4px solid white;
+}
+
+header ul {
+    padding: 10px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: end;
+    color: orange;
+    font-size: 30px;
+    padding-top: 20px;
+    backdrop-filter: blur(1px);
+    /*-webkit-backdrop-mask: -webkit-linear-gradient(black, transparent 30%, black);
+    -webkit-backdrop-filter: blur(2px);*/
+}
+
+header li {
+    padding-right: 30px;
+    display: inline-block;
+    min-width: 130px;
+}
+
+header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    transition: 5s;
+}
+
+.uparrow img {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.uparrow {
+    padding: 10px;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    border-radius: 10px;
+    display: none;
 }

@@ -92,3 +92,27 @@ const slideto = (pos) => {
 }
 
 slideto(1);
+
+window.onscroll = myfunction;
+
+function myfunction(){
+    var pos = window.scrollY;
+    if(pos<150){
+      var head = document.querySelector('.header-list');
+      head.style.margin = '0px';
+      head.style.paddingTop = '20px';
+      head.style.paddingBottom = '10px';
+      head.style.removeProperty('background-color');
+      var arrow = document.querySelector('.uparrow');
+      arrow.style.display = 'none';
+      return;
+    }else{
+      var head = document.querySelector('.header-list');
+      head.style.margin = '0px';
+      head.style.paddingTop = '0px';
+      head.style.paddingBottom = '0px';
+      head.style.backgroundColor = 'grey';
+      var arrow = document.querySelector('.uparrow');
+      arrow.style.display = 'block';
+    }
+}
